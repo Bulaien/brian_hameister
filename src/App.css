@@ -1,0 +1,66 @@
+#root {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  position:relative;
+}
+.navi{
+  height:10vh;
+  width: 100vw;;
+  background-color: rgb(34, 83, 83);
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.zentrum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+
+.zentrum h1{
+  font-size: 4rem;
+  color: white;
+  text-shadow: 3px 3px 6px rgb(197, 189, 189);
+}
+
+.main{
+  margin-top: 10vh;
+  top: 10vh;
+  height: 90%;
+}
+
+.products{
+  width:100%;
+  
+
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  row-gap: 3%;
+  column-gap: 3%;
+}
+
+ img{
+  width:300px;
+  height:400px;
+}
+
+.product{
+
+  width: 23%;
+}
+
+
+
+
